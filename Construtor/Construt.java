@@ -1,0 +1,39 @@
+class Construct{
+int id;
+String name;
+String dep;
+
+//CONSTRUCTOR
+// CONSTRUCTOR IS A SPECIAL TYPE OF METHOD.
+// CONSTRUCTOR NAME SHOULD FOLLOW CLASS NAME.
+// CONTRUCTOR DOESNOT HAVE RETURN TYPE, AND IT CANNOT USE RETURN KEYWORD.
+// ONCE THE OBJECT IS CREATED CONSTRUCTOR WILL AUTOMATICALLY CALL.
+//TYPES : DEFAULT CONSTRUCTOR, ARGUMENT/ PARAMETERIZED CONSTRUCTOR, COPY CONSTRUCTOR.
+// CONSTRUCTOR SUPPORTS ACCESS MODIFIERS ( Default, Public, Private,Protected).
+// CONSTRUCTOR DOESNOT SUPPORT NON ACCESS MODIFIER ( static, final, abstract,synchronized).
+// CONSTRUCTOR IS USED TO ASSIGN DEFAULT VALUES FOR DECLARED INSTANCE VARIABLE.
+// INSTANCE VARIABLE CAN BE USE DIRECTLY IN CONSTRUCTOR.
+//BY DEFAULT CONSRUCTOR IS DEFAULT ACCESS MODIFIER.
+
+// DEFAULT CONTSRUCTOR
+
+public Construct(){   
+
+
+id=102;
+dep ="IT";
+System.out.println("Object is created");
+}
+
+
+public static void main (String[] args){
+
+Construct c1=new Construct();
+
+System.out.println(c1.id);
+System.out.println(c1.name);
+System.out.println(c1.dep);
+
+}
+
+}
