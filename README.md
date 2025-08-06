@@ -1,1 +1,1 @@
-# UNIQ-TECHNOLOGIES-JAVA
+I did java practice in uniq technologies
